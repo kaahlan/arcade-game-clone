@@ -25,5 +25,7 @@ How high can you get your score?
 ## Resources
 
 Starter Code - [Udacity](https://github.com/udacity/frontend-nanodegree-arcade-game)
+
 Font - Baloo Chettan - [Google](https://fonts.google.com/specimen/Baloo+Chettan)
+
 Arrow Key Image - [Nice PNG](https://www.nicepng.com/ourpic/u2q8q8o0r5a9y3a9_arrow-key-transparent-background-arrow/)

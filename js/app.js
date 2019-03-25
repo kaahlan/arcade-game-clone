@@ -60,14 +60,10 @@ Player.prototype.update = function() {
   }
 
   // Player scores a point by reaching the river and resets
-  // to starting position. Reets enemy x positions, adds a
-  // point to score, and updates HTML.
+  // to starting position. Adds a point to score, and updates HTML.
   if (this.y < 0) {
     this.x = 202;
     this.y = 382;
-    enemyRow1.x = -101;
-    enemyRow2.x = -101;
-    enemyRow3.x = -101;
     score += 1;
     document.querySelector('#currentScore').innerHTML = score;
   }
