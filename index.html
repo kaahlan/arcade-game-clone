@@ -2,12 +2,39 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
+    <title>Kaahlan's Classic Arcade Game Clone</title>
+    <meta name="author" content="Kaahlan">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <!-- Font from Google. -->
 </head>
 <body>
+    <div id="score">
+      Score: <span id="currentScore">0</span>
+    </div>
+
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
+
+    <div id=gamerules>
+      <div id=text>
+      <p>
+        Use the Arrow Keys to move
+      </p>
+      <p>
+        Reach the water for 1 point
+      </p>
+      <p>
+        Score resets if you touch a bug
+      </p>
+      </div>
+      <img src="images/ArrowKeys.png" alt="Arrow Keys">
+      <!-- Arrow image from https://www.nicepng.com/ourpic/u2q8q8o0r5a9y3a9_arrow-key-transparent-background-arrow/ edited down for size. -->
+    </div>
+
+    <footer>
+      Coded by Kaahlan, 2019
+    </footer>
 </body>
 </html>

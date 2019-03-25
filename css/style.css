@@ -1,3 +1,44 @@
 body {
     text-align: center;
+    font-family: 'Baloo Chettan', serif;
+}
+
+#score {
+  font-size: 17px;
+  margin: auto;
+  margin-bottom: -37px;
+  display: table;
+  border-style: solid;
+  border-width: 1px;
+  width: 503px;
+}
+
+#gamerules {
+    font-size: 17px;
+    margin: auto;
+    margin-top: -10px;
+    display: table;
+    border-style: solid;
+    border-width: 1px;
+    width: 503px;
+    white-space: nowrap;
+}
+
+#text {
+    float: left;
+    padding-left: 25px;
+}
+
+img {
+    float: right;
+}
+
+footer {
+  font-size: 14px;
+  margin: auto;
+  margin-top: 10px;
+  display: table;
+  border-style: solid;
+  border-width: 1px;
+  width: 503px;
 }
